@@ -27,6 +27,100 @@
 .App-link {
   color: #61dafb;
 }
+.custom_navbar a {
+  padding-left: 20px;
+}
+.custom_navbar.sidebar div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.custom_navbar.sidebar div .menu-Items {
+  padding: 20px 0px;
+  max-height: 100% !important;
+}
+.offcanvas.offcanvas-start.show {
+  background: #075999;
+  color: #fff;
+}
+
+.offcanvas.offcanvas-start.show a {
+  color: #fff;
+}
+.custom_navbar.sidebar div .menu-Items a {
+  text-decoration: none;
+  color: #fff;
+  padding: 14px;
+}
+
+.custom_navbar.sidebar {
+  height: 100%;
+  display: flex;
+  align-items: baseline;
+}
+
+div.username {
+  display: flex;
+  justify-content: end;
+}
+.username a {
+  color: #fff;
+}
+
+.username:hover a {
+  color: #fff;
+}
+
+.username .show a {
+  color: #171616;
+}
+button.menuBtn {
+  background: rgb(35 31 31);
+  font-size: 18px;
+  padding: 6px 14px;
+  color: #fff;
+}
+img.product-img {
+  width: 160px;
+  height: 100%;
+}
+/* login form css start */
+.loginWrapper .menuBtn{display: none;}
+nav.bg-body-tertiary.custom_navbar.navbar.navbar-expand-lg.navbar-light {
+  background: #075999 !important;
+  min-height: 70px;
+}
+.loginWrapper .login-from {
+  min-height: 400px;
+  padding: 26px;
+  margin-top: 148px;
+  background: aliceblue;
+  border-radius: 24px;
+}
+
+.login-from input,.login-from button {
+  border-radius: 18px;
+  padding: 11px 21px;
+}
+
+.loginWrapper .login-from h1 {
+  margin-bottom: 68px;
+  color: #075999;
+}
+
+.loginWrapper .login-from button {
+  background: #075999;
+  border-color: #075999;
+}
+
+.loginWrapper .login-from button:hover {
+  transform: scale(1.05);
+  transition: all 0.7s ease;
+}
+/* login form css end */
+
 
 @keyframes App-logo-spin {
   from {
